@@ -22,7 +22,7 @@ hr {
 
 #cat {
     position: absolute;
-    top: 450px;
+    top: 420px;
     left: 30px;
     transition: right 0.1s;
     z-index: 2;

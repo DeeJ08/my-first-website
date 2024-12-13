@@ -4,7 +4,7 @@ document.querySelector("body").appendChild(h2);
 
 const img = document.getElementById("cat");
 const changePoint = window.innerWidth - 90;
-const stopPoint = 1000;
+const stopPoint = 1020;
 let currentLeft = 30;
 
 document.addEventListener('keydown', (event) => {
