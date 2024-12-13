@@ -4,13 +4,12 @@ document.querySelector("body").appendChild(h2);
 
 const img = document.getElementById("cat");
 const changePoint = window.innerWidth - 90;
-const maxRight = window.innerWidth - img.width;
-const newImageSrc = "cat.png";
+const stopPoint = 1000;
 let currentLeft = 30;
 
 document.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowRight') {
-      if (currentLeft < maxRight) {
+      if (currentLeft < stopPoint) {
         currentLeft += 10; 
         if (currentLeft >= changePoint) {    
         }

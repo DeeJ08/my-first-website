@@ -22,14 +22,19 @@ hr {
 
 #cat {
     position: absolute;
-    top: 490px;
+    top: 450px;
     left: 30px;
     transition: right 0.1s;
+    z-index: 2;
     }
 
 
-#empty-flower-pot {
+#plants {
     position: absolute;
-    top: 600px;
+    top: 265px;
     right: 30px;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+    transform: scaleX(-1);
 }
