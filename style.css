@@ -1,7 +1,9 @@
 body, html {
     background: url(./images/backgroundforest.png) no-repeat;
-    background-color: #4d824d;
+    background-color: #0b120b;
     background-size: cover;
+    width: 100%;
+    height: 100vh;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     
@@ -9,7 +11,7 @@ body, html {
   #nav-container {
     font-family: 'Courier New', Courier, monospace;
   }
-  hr {
+hr {
     display:block; 
     height: 3px; 
     border: 10px dotted #a117178c; 
@@ -18,17 +20,16 @@ body, html {
     padding: 0; 
 }
 
-img[alt="cat"] {
+#cat {
     position: absolute;
-    z-index: 5;
-    top: 500px;
+    top: 490px;
     left: 30px;
-    padding: 0%;
-}
+    transition: right 0.1s;
+    }
 
-img[alt="empty-flower-pot"] {
+
+#empty-flower-pot {
     position: absolute;
-    z-index: 4;
-    top: 620px;
+    top: 600px;
     right: 30px;
 }
